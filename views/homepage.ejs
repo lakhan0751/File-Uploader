@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files Uploaded </title>
+</head>
+<body>
+
+    <h2>This is My File Uploader</h2>
+    <style>
+
+       
+
+        body{
+            
+            margin-top: 50vh;
+           text-align: center;
+            background-color:rgb(252, 126, 0);
+        }
+        .container{
+           
+            background-color: rgb(0, 255, 42);
+        
+        }
+        
+        h2{
+
+            color:black;
+            
+        }
+
+
+    </style>
+
+    
+   
+
+    <div class="container">
+
+
+        
+   <form action ="/upload" method ="POST" enctype="multipart/form-data"> 
+
+
+    <!-- ////// Yaha par jo bhi file choose ho wo ham node js  par handle kar pay  -->
+    <input type = "file" name = "profileImage"/>
+
+    <button type ="Submit">Upload</button>
+
+   </form>
+
+
+
+    </div>
+
+    
+</body>
+</html>
