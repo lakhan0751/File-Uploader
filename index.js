@@ -56,5 +56,6 @@ app.post('/upload', upload.single('profileImage') , (req, res)=>{
 
 
 app.listen(PORT , () =>{
+    
     console.log(`Listening server to the ${PORT}`);
 })
